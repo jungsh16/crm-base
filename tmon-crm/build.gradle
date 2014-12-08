@@ -57,14 +57,15 @@ dependencies {
 	def SPRING_GROUP = 'org.springframework'
 	def SPRING_VERSION = '4.1.2.RELEASE'
 
-	// Common
+	// Apache Commons
     compile 'commons-collections:commons-collections:3.2'
+    compile 'commons-io:commons-io:2.4'
+    compile 'org.apache.commons:commons-dbcp2:2.0.1'
+    compile 'org.apache.commons:commons-pool2:2.2'
+
+
     
-    // Web Spec
-    // TODO jstl
-    // TODO jsp-api
-    // TODO servlet-api
-    
+
     // Spring Framework
     compile "$SPRING_GROUP:spring-context:$SPRING_VERSION"
     compile "$SPRING_GROUP:spring-beans:$SPRING_VERSION"
