@@ -23,5 +23,5 @@
 		<property name="suffix" value=".jsp" />
 	</bean>
 
-	<context:component-scan base-package="kr.co.tmon" />
+	<context:component-scan base-package="kr.co.tmon.crm" />
 </beans>
