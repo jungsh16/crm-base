@@ -57,14 +57,17 @@ dependencies {
 	def SPRING_GROUP = 'org.springframework'
 	def SPRING_VERSION = '4.1.2.RELEASE'
 
+	// Web Spec
+	providedCompile 'javax.servlet:javax.servlet-api:3.1.0'
+	providedCompile 'javax.servlet.jsp:javax.servlet.jsp-api:2.3.1'
+	providedCompile 'javax.el:javax.el-api:3.0.0'
+	providedCompile 'javax.websocket:javax.websocket-api:1.1'
+
 	// Apache Commons
     compile 'commons-collections:commons-collections:3.2'
     compile 'commons-io:commons-io:2.4'
     compile 'org.apache.commons:commons-dbcp2:2.0.1'
     compile 'org.apache.commons:commons-pool2:2.2'
-
-
-    
 
     // Spring Framework
     compile "$SPRING_GROUP:spring-context:$SPRING_VERSION"
@@ -75,7 +78,6 @@ dependencies {
     compile "$SPRING_GROUP:spring-context-support:$SPRING_VERSION"
     compile "$SPRING_GROUP:spring-test:$SPRING_VERSION"
     compile "$SPRING_GROUP:spring-web:$SPRING_VERSION"
-    compile "$SPRING_GROUP:spring-webmvc:$SPRING_VERSION"
     compile "$SPRING_GROUP:spring-webmvc:$SPRING_VERSION"
 
     // Spring-MyBatis

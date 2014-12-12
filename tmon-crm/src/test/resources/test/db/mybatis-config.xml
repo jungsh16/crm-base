@@ -13,7 +13,7 @@
 
 	<!-- SQL Definition :: file include -->
 	<mappers>
-		<!-- <mapper resource="db/mapper/Test.xml" /> -->
+		<mapper resource="test/db/mapper/Test.xml" />
 	</mappers>
 
 </configuration>

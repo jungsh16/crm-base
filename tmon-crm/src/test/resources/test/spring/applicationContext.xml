@@ -17,7 +17,7 @@
 		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
 		<property
 			name="location"
-			value="classpath:db/jdbc.properties"></property>
+			value="classpath:test/db/jdbc.properties"></property>
 	</bean>
 
 	<!-- DataSource -->
@@ -54,7 +54,7 @@
 		id="sqlSessionFactory"
 		class="org.mybatis.spring.SqlSessionFactoryBean"
 		p:dataSource-ref="dataSource"
-		p:configLocation="classpath:db/mybatis-config.xml" />
+		p:configLocation="classpath:test/db/mybatis-config.xml" />
 
 	<!-- SqlSession -->
 	<bean
