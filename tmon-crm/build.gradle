@@ -64,6 +64,7 @@ dependencies {
 	providedCompile 'javax.websocket:javax.websocket-api:1.1'
 
 	// Apache Commons
+	compile 'org.apache.commons:commons-lang3:3.3.2'
     compile 'commons-collections:commons-collections:3.2'
     compile 'commons-io:commons-io:2.4'
     compile 'org.apache.commons:commons-dbcp2:2.0.1'
@@ -79,6 +80,12 @@ dependencies {
     compile "$SPRING_GROUP:spring-test:$SPRING_VERSION"
     compile "$SPRING_GROUP:spring-web:$SPRING_VERSION"
     compile "$SPRING_GROUP:spring-webmvc:$SPRING_VERSION"
+    
+    // Json
+    compile "com.fasterxml.jackson.core:jackson-core:2.4.4"
+    compile "com.fasterxml.jackson.core:jackson-annotations:2.4.4"
+    compile "com.fasterxml.jackson.core:jackson-databind:2.4.4"
+
 
     // Spring-MyBatis
     compile 'org.mybatis:mybatis-spring:1.2.2'

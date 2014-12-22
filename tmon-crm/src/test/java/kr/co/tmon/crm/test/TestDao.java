@@ -1,4 +1,4 @@
-package kr.co.tmon.crm;
+package kr.co.tmon.crm.test;
 
 import static org.junit.Assert.*;
 import static org.mockito.Matchers.*;
