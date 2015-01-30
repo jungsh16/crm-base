@@ -18,6 +18,10 @@ public class EditDistanceTest {
 		assertEquals(3, EditDistance.getDistance("ABCDEFG", "AEFG"));
 
 		assertEquals(1, EditDistance.getDistance("현", "혀"));
+		
+		System.out.println(EditDistance.getDistance("정승현", "정승혀"));
+		System.out.println(EditDistance.getDistance("정승현", "김재현"));
+		System.out.println(EditDistance.getDistance("정승현", "한영준"));
 	}
 
 }

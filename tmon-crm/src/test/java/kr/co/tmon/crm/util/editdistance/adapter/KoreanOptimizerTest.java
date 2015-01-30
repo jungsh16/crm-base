@@ -13,5 +13,4 @@ public class KoreanOptimizerTest {
 		assertEquals("ᄀ@ᅡᆧᄂ@ᅡᆧᄃ@ᅡᆧ", koreanAdapter.getOptimizedString("가나다"));
 		assertEquals("ᄋ@ᅵᆰ", koreanAdapter.getOptimizedString("읽"));
 	}
-
 }
